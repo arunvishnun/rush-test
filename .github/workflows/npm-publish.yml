@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: node common/scripts/install-run-rush.js install install
-      - run: node common/scripts/install-run-rush.js install publish --pack --include-all
+      - run: node common/scripts/install-run-rush.js install 
+      - run: node common/scripts/install-run-rush.js publish --pack --include-all
         env:
           NPM_AUTH_TOKEN: ${{secrets.npm_token}}
