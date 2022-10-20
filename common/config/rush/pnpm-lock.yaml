@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/sample-package': file:./projects/sample-package.tgz
+
+dependencies:
+  '@rush-temp/sample-package': file:projects/sample-package.tgz
+
+packages:
+
+  file:projects/sample-package.tgz:
+    resolution: {integrity: sha512-TC3fMQ/B0I9GQFdghaxcXDw6F3HoqUZXu7kHCvOzxjW/sOF/tOnUNDM445GyJL8sWb7IC3eeX7uLk+6hUWG8BQ==, tarball: file:projects/sample-package.tgz}
+    name: '@rush-temp/sample-package'
+    version: 0.0.0
+    dev: false
