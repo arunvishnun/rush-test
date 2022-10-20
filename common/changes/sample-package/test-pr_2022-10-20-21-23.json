@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "sample-package",
+      "comment": "Adding sample log message",
+      "type": "major"
+    }
+  ],
+  "packageName": "sample-package"
+}
