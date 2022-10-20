@@ -32,4 +32,4 @@ jobs:
       - run: node common/scripts/install-run-rush.js install install
       - run: node common/scripts/install-run-rush.js install publish --pack --include-all
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NPM_AUTH_TOKEN: ${{secrets.npm_token}}
