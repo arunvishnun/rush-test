@@ -17,8 +17,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: rush install
-      - run: rush rebuild --verbose
+      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js rebuild --verbose
 
   publish-npm:
     needs: build
@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: rush install
-      - run: rush publish --pack --include-all
+      - run: node common/scripts/install-run-rush.js install install
+      - run: node common/scripts/install-run-rush.js install publish --pack --include-all
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
