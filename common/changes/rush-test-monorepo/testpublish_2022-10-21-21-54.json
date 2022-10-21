@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-test-monorepo",
+      "comment": "sdsds",
+      "type": "major"
+    }
+  ],
+  "packageName": "rush-test-monorepo"
+}
