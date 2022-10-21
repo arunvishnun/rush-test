@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git@github.com:arunvishnun/rush-test.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
