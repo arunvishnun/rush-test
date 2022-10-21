@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-test-monorepo",
+      "comment": "New chagnes",
+      "type": "minor"
+    }
+  ],
+  "packageName": "rush-test-monorepo"
+}
