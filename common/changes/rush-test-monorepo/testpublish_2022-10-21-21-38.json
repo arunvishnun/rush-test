@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-test-monorepo",
+      "comment": "Rush publish working clean up and testing",
+      "type": "major"
+    }
+  ],
+  "packageName": "rush-test-monorepo"
+}
