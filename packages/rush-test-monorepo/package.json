@@ -1,8 +1,8 @@
 {
-  "name": "@arunvishnun/rush-test-monorepo",
-  "version": "5.0.0",
+  "name": "rush-test-monorepo",
+  "version": "9.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
     "src"
   ],
@@ -15,7 +15,8 @@
     "url": "git@github.com:arunvishnun/rush-test.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "keywords": [],
   "author": "",

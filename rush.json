@@ -422,7 +422,7 @@
     //   "tags": [ "tools" ]
     // }
     {
-      "packageName": "@arunvishnun/rush-test-monorepo",
+      "packageName": "rush-test-monorepo",
       "projectFolder": "packages/rush-test-monorepo",
       "versionPolicyName": "packageVersionPolicy"
     }
