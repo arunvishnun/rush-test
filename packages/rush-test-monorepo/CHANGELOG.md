@@ -1,6 +1,13 @@
-# Change Log - sample-package
+# Change Log - @arunvishnun/rush-test-monorepo
 
-This log was last generated on Fri, 21 Oct 2022 06:23:59 GMT and should not be manually modified.
+This log was last generated on Fri, 21 Oct 2022 18:16:31 GMT and should not be manually modified.
+
+## 5.1.0
+Fri, 21 Oct 2022 18:16:31 GMT
+
+### Minor changes
+
+- log message changed
 
 ## 5.0.0
 Fri, 21 Oct 2022 06:23:59 GMT

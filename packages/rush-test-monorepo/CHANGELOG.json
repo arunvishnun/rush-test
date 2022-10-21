@@ -1,6 +1,20 @@
 {
-  "name": "sample-package",
+  "name": "@arunvishnun/rush-test-monorepo",
   "entries": [
+    {
+      "version": "5.1.0",
+      "tag": "@arunvishnun/rush-test-monorepo_v5.1.0",
+      "date": "Fri, 21 Oct 2022 18:16:31 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "log message changed",
+            "author": "Arun Vishnu <arunnampoothiri.vish@walmart.com>",
+            "commit": "52098875eed8915dcde17fdc0c043b9c81c10973"
+          }
+        ]
+      }
+    },
     {
       "version": "5.0.0",
       "tag": "sample-package_v5.0.0",
