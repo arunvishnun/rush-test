@@ -1,6 +1,18 @@
 {
-  "name": "sample-package",
+  "name": "rush-test-monorepo",
   "entries": [
+    {
+      "version": "5.1.0",
+      "tag": "rush-test-monorepo_v5.1.0",
+      "date": "Fri, 21 Oct 2022 19:10:22 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "removed scoping"
+          }
+        ]
+      }
+    },
     {
       "version": "5.0.0",
       "tag": "sample-package_v5.0.0",
