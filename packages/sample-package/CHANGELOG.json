@@ -2,6 +2,18 @@
   "name": "sample-package",
   "entries": [
     {
+      "version": "4.0.0",
+      "tag": "sample-package_v4.0.0",
+      "date": "Fri, 21 Oct 2022 06:04:02 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "changes in message"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.0.0",
       "tag": "sample-package_v3.0.0",
       "date": "Fri, 21 Oct 2022 05:42:06 GMT",
