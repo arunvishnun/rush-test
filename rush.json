@@ -422,8 +422,8 @@
     //   "tags": [ "tools" ]
     // }
     {
-      "packageName": "sample-package",
-      "projectFolder": "packages/sample-package",
+      "packageName": "@arunvishnun/rush-test-monorepo",
+      "projectFolder": "packages/rush-test-monorepo",
       "versionPolicyName": "packageVersionPolicy"
     }
   ]
