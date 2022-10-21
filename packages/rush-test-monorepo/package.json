@@ -1,6 +1,6 @@
 {
-  "name": "sample-package",
-  "version": "3.0.0",
+  "name": "@arunvishnun/rush-test-monorepo",
+  "version": "5.0.0",
   "description": "",
   "main": "index.js",
   "files": [
@@ -9,6 +9,13 @@
   "scripts": {
     "build": "echo \"Error: no test specified\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arunvishnun/rush-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [],
   "author": "",
