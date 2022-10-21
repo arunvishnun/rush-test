@@ -10,6 +10,10 @@
     "build": "echo \"Error: no test specified\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arunvishnun/rush-test.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
