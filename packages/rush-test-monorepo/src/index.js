@@ -1,1 +1,1 @@
-console.log('Publish working - clean up...!')
+console.log('Publish working - again test!')
