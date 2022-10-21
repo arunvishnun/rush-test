@@ -1,1 +1,1 @@
-console.log('Publish working - again test0 !')
+console.log('Publish working - again test2 !')
