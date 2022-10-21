@@ -424,7 +424,7 @@
     {
       "packageName": "sample-package",
       "projectFolder": "packages/sample-package",
-      "shouldPublish": true
+      "versionPolicyName": "packageVersionPolicy"
     }
   ]
 }
