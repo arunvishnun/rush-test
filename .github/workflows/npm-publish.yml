@@ -21,6 +21,9 @@ jobs:
       - run: node common/scripts/install-run-rush.js rebuild --verbose
 
   publish-npm:
+    # This needs to be done only when merge to main / master happens
+    if: ${{ github.ref == 'refs/heads/main' }}
+
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -30,7 +33,16 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
 
-      - run: node common/scripts/install-run-rush.js update --full
-      - run: node common/scripts/install-run-rush.js publish --apply --publish --set-access-level=public
+      # The "rush install" command installs package dependencies for all your
+      # projects, based on the shrinkwrap file that is created/updated using "rush
+      # update". 
+      - name: Install Dependencies
+        run: node common/scripts/install-run-rush.js install
+
+      - name: Build packages
+        run: node common/scripts/install-run-rush.js rebuild --verbose
+
+      - name: Publish
+        run: node common/scripts/install-run-rush.js publish --apply --publish --set-access-level=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
