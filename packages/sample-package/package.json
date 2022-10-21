@@ -1,10 +1,10 @@
 {
   "name": "sample-package",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "files": [
-    "index.js"
+    "src"
   ],
   "scripts": {
     "build": "echo \"Error: no test specified\"",

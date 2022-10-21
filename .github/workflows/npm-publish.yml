@@ -31,6 +31,5 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: node common/scripts/install-run-rush.js install 
       - run: node common/scripts/install-run-rush.js publish --apply --publish
-      
         env:
-          NPM_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
