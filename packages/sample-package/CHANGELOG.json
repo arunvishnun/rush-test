@@ -2,6 +2,20 @@
   "name": "sample-package",
   "entries": [
     {
+      "version": "4.0.1",
+      "tag": "sample-package_v4.0.1",
+      "date": "Fri, 21 Oct 2022 06:15:57 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "added changes",
+            "author": "Arun Vishnu <arunnampoothiri.vish@walmart.com>",
+            "commit": "cc8b2f84273f23836db6d7f05719a62232a90775"
+          }
+        ]
+      }
+    },
+    {
       "version": "4.0.0",
       "tag": "sample-package_v4.0.0",
       "date": "Fri, 21 Oct 2022 06:04:02 GMT",
