@@ -31,13 +31,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - run: node common/scripts/install-run-rush.js update --full
-      - name: Commit Dist
-        
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git commit -a -m 'Updated dists' || echo "No changes to commit"
-          git push
+
 
       # - run: node common/scripts/install-run-rush.js publish --apply --include-all --publish --set-access-level=public --add-commit-details 
       - run: node common/scripts/install-run-rush.js version --bump --target-branch testpublish
