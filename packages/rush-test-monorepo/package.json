@@ -16,7 +16,7 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "directory": "src"
+    "directory": "./"
   },
   "keywords": [],
   "author": "",
