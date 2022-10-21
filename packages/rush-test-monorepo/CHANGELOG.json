@@ -2,6 +2,18 @@
   "name": "rush-test-monorepo",
   "entries": [
     {
+      "version": "6.0.0",
+      "tag": "rush-test-monorepo_v6.0.0",
+      "date": "Fri, 21 Oct 2022 21:19:43 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "full update"
+          }
+        ]
+      }
+    },
+    {
       "version": "5.2.0",
       "tag": "rush-test-monorepo_v5.2.0",
       "date": "Fri, 21 Oct 2022 21:16:01 GMT",
