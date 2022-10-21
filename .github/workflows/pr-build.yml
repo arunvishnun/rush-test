@@ -18,5 +18,5 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: node common/scripts/install-run-rush.js install
+      - run: node common/scripts/install-run-rush.js install --max-install-attempts 2
       - run: node common/scripts/install-run-rush.js rebuild --verbose
