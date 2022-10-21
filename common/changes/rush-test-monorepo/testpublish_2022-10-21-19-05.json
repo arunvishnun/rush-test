@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-test-monorepo",
+      "comment": "removed scoping",
+      "type": "minor"
+    }
+  ],
+  "packageName": "rush-test-monorepo"
+}
