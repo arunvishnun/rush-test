@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "sample-package",
+      "comment": "sdsds",
+      "type": "minor"
+    }
+  ],
+  "packageName": "sample-package"
+}
