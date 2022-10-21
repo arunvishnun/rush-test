@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "files": [
-    "src"
+    "./"
   ],
   "scripts": {
     "build": "echo \"Error: no test specified\"",
@@ -16,7 +16,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "access": "public",
+    "directory": "src"
   },
   "keywords": [],
   "author": "",
