@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-test-monorepo",
+      "comment": "full update",
+      "type": "major"
+    }
+  ],
+  "packageName": "rush-test-monorepo"
+}
