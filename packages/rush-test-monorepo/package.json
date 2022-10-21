@@ -1,6 +1,6 @@
 {
   "name": "rush-test-monorepo",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "",
   "main": "src/index.js",
   "files": [
