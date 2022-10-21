@@ -33,7 +33,7 @@ jobs:
       - run: node common/scripts/install-run-rush.js update --full
      
       # - run: node common/scripts/install-run-rush.js publish --apply --include-all --publish --set-access-level=public --add-commit-details 
-      - run: node common/scripts/install-run-rush.js version --bump --target-branch testpublish
+      # - run: node common/scripts/install-run-rush.js version --bump --target-branch testpublish
       - run: rush publish --apply --publish --npm-auth-token ${{secrets.NPM_AUTH_TOKEN}}
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
