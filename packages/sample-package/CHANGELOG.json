@@ -2,6 +2,18 @@
   "name": "sample-package",
   "entries": [
     {
+      "version": "5.0.0",
+      "tag": "sample-package_v5.0.0",
+      "date": "Fri, 21 Oct 2022 06:23:59 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "sdsds"
+          }
+        ]
+      }
+    },
+    {
       "version": "4.2.0",
       "tag": "sample-package_v4.2.0",
       "date": "Fri, 21 Oct 2022 06:19:49 GMT",

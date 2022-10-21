@@ -1,6 +1,13 @@
 # Change Log - sample-package
 
-This log was last generated on Fri, 21 Oct 2022 06:19:49 GMT and should not be manually modified.
+This log was last generated on Fri, 21 Oct 2022 06:23:59 GMT and should not be manually modified.
+
+## 5.0.0
+Fri, 21 Oct 2022 06:23:59 GMT
+
+### Breaking changes
+
+- sdsds
 
 ## 4.2.0
 Fri, 21 Oct 2022 06:19:49 GMT
