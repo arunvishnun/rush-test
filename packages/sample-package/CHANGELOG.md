@@ -1,6 +1,13 @@
 # Change Log - sample-package
 
-This log was last generated on Fri, 21 Oct 2022 06:18:19 GMT and should not be manually modified.
+This log was last generated on Fri, 21 Oct 2022 06:19:49 GMT and should not be manually modified.
+
+## 4.2.0
+Fri, 21 Oct 2022 06:19:49 GMT
+
+### Minor changes
+
+- test
 
 ## 4.1.0
 Fri, 21 Oct 2022 06:18:19 GMT
