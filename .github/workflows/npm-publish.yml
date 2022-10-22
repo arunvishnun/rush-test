@@ -44,9 +44,11 @@ jobs:
       
       - name: Bump Version
         run: node common/scripts/install-run-rush.js version --bump --target-branch main
+        env: 
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Publish
         run: node common/scripts/install-run-rush.js publish --apply --publish --set-access-level=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
