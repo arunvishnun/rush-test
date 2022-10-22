@@ -42,10 +42,13 @@ jobs:
       - name: Build packages
         run: node common/scripts/install-run-rush.js rebuild --verbose
       
+      - name: Set Git user
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      
       - name: Bump Version
         run: node common/scripts/install-run-rush.js version --bump
-        env: 
-          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Publish
         run: node common/scripts/install-run-rush.js publish --apply --publish --set-access-level=public
