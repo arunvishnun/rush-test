@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "my-controls",
+      "comment": "update the toolchain package version",
+      "type": "minor"
+    }
+  ],
+  "packageName": "my-controls"
+}
