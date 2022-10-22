@@ -42,10 +42,12 @@ jobs:
       - name: Build packages
         run: node common/scripts/install-run-rush.js rebuild --verbose
       
-      - name: Bump Version
+      - name: Set Git user
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+      
+      - name: Bump Version
         run: node common/scripts/install-run-rush.js version --bump
 
       - name: Publish
