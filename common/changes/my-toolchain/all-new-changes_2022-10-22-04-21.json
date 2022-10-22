@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "my-toolchain",
+      "comment": "my toolchain re created for testing",
+      "type": "major"
+    }
+  ],
+  "packageName": "my-toolchain"
+}
