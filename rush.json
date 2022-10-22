@@ -425,6 +425,16 @@
       "packageName": "rush-test-monorepo",
       "projectFolder": "packages/rush-test-monorepo",
       "versionPolicyName": "packageVersionPolicy"
+    },
+    {
+      "packageName": "my-controls",
+      "projectFolder": "packages/my-controls",
+      "versionPolicyName": "packageVersionPolicy"
+    },
+    {
+      "packageName": "my-toolchain",
+      "projectFolder": "packages/my-toolchain",
+      "versionPolicyName": "packageVersionPolicy"
     }
   ]
 }
