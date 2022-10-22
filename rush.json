@@ -504,17 +504,17 @@
     {
       "packageName": "rush-test-monorepo",
       "projectFolder": "packages/rush-test-monorepo",
-      "shouldPublish": true
+      "versionPolicyName": "packageVersionPolicy"
     },
     {
       "packageName": "rush-test-my-controls",
       "projectFolder": "packages/rush-test-my-controls",
-      "shouldPublish": true
+      "versionPolicyName": "packageVersionPolicy"
     },
     {
       "packageName": "rush-test-my-toolchain",
       "projectFolder": "packages/rush-test-my-toolchain",
-      "shouldPublish": true
+      "versionPolicyName": "packageVersionPolicy"
     }
   ]
 }
