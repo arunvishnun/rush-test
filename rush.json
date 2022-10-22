@@ -30,10 +30,7 @@
 
   // "npmVersion": "6.14.15",
   // "yarnVersion": "1.9.4",
-  /**
-   * Options that are only used when the PNPM package manager is selected
-   */
-   "pnpmOptions": {
+  "pnpmOptions": {
     /**
      * Specifies the location of the PNPM store.  There are two possible values:
      *
@@ -502,18 +499,18 @@
     //   "tags": [ "tools" ]
     // }
     {
+      "packageName": "rush-test-my-controls",
+      "projectFolder": "packages/rush-test-my-controls",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "rush-test-my-toolchain",
+      "projectFolder": "packages/rush-test-my-toolchain",
+      "shouldPublish": true
+    },
+    {
       "packageName": "rush-test-monorepo",
       "projectFolder": "packages/rush-test-monorepo",
-      "shouldPublish": true
-    },
-    {
-      "packageName": "my-controls",
-      "projectFolder": "packages/my-controls",
-      "shouldPublish": true
-    },
-    {
-      "packageName": "my-toolchain",
-      "projectFolder": "packages/my-toolchain",
       "shouldPublish": true
     }
   ]
