@@ -13,6 +13,10 @@
     "build": "my-build",
     "my-bulk-command": "my-bulk-command"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "devDependencies": {
     "my-toolchain": "^1.0.0",
     "typescript": "^4.7.4"
