@@ -1,5 +1,5 @@
 {
-  "name": "my-controls",
+  "name": "rush-test-my-controls",
   "version": "1.0.0",
   "private": false,
   "description": "An example library project",
@@ -10,7 +10,7 @@
     "src"
   ],
   "scripts": {
-    "build": "my-build",
+    "build": "echo \"Error: no test specified\"",
     "my-bulk-command": "my-bulk-command"
   },
   "repository": {
@@ -22,7 +22,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "my-toolchain": "workspace:^1.0.0",
+    "rush-test-my-toolchain": "workspace:^1.0.0",
     "typescript": "^4.7.4"
   }
 }

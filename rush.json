@@ -507,13 +507,13 @@
       "shouldPublish": true
     },
     {
-      "packageName": "my-controls",
-      "projectFolder": "packages/my-controls",
+      "packageName": "rush-test-my-controls",
+      "projectFolder": "packages/rush-test-my-controls",
       "shouldPublish": true
     },
     {
-      "packageName": "my-toolchain",
-      "projectFolder": "packages/my-toolchain",
+      "packageName": "rush-test-my-toolchain",
+      "projectFolder": "packages/rush-test-my-toolchain",
       "shouldPublish": true
     }
   ]
