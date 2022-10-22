@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "my-controls",
+      "comment": "content change in my-controls",
+      "type": "major"
+    }
+  ],
+  "packageName": "my-controls"
+}

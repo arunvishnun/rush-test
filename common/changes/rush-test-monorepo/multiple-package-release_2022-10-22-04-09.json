@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-test-monorepo",
+      "comment": "console log change in rust test package",
+      "type": "major"
+    }
+  ],
+  "packageName": "rush-test-monorepo"
+}
