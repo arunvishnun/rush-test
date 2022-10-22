@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "my-controls",
+      "comment": "Add additional packages. Includes 2 sample packages from rush repo",
+      "type": "major"
+    }
+  ],
+  "packageName": "my-controls"
+}
