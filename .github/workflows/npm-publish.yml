@@ -43,7 +43,7 @@ jobs:
         run: node common/scripts/install-run-rush.js rebuild --verbose
       
       - name: Bump Version
-        run: node common/scripts/install-run-rush.js version --bump --target-branch main
+        run: node common/scripts/install-run-rush.js version --bump
         env: 
           GITHUB_TOKEN: ${{ github.token }}
 
