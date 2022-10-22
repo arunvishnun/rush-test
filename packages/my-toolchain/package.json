@@ -15,6 +15,10 @@
   "dependencies": {
     "colors": "^1.4.0"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "16.11.47",
     "rimraf": "^2.7.1",
