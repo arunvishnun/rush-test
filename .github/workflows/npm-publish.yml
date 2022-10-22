@@ -22,7 +22,7 @@ jobs:
 
   publish-npm:
     # This needs to be done only when merge to main / master happens
-    if: ${{ github.ref == 'refs/heads/main' }}
+    # if: ${{ github.ref == 'refs/heads/main' }}
 
     needs: build
     runs-on: ubuntu-latest
@@ -51,7 +51,7 @@ jobs:
         run: node common/scripts/install-run-rush.js version --bump
 
       - name: Publish
-        run: node common/scripts/install-run-rush.js publish --apply --publish --set-access-level=public --add-commit-details --prerelease-name beta --include-all --regenerate-changelogs
+        run: node common/scripts/install-run-rush.js publish --apply --publish --set-access-level=public --add-commit-details --prerelease-name beta --include-all
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
           
