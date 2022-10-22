@@ -1,6 +1,6 @@
 {
   "name": "my-toolchain",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "An example toolchain used to build projects in this repo",
   "license": "MIT",
@@ -11,6 +11,10 @@
   "scripts": {
     "build": "rimraf ./lib/ && tsc",
     "my-bulk-command": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arunvishnun/rush-test.git"
   },
   "dependencies": {
     "colors": "^1.4.0"
