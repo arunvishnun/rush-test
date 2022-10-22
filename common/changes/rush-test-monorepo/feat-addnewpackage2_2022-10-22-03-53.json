@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-test-monorepo",
+      "comment": "main package with console log, chagnes in console log message",
+      "type": "minor"
+    }
+  ],
+  "packageName": "rush-test-monorepo"
+}
